@@ -4,6 +4,12 @@ I build web applications across frontend and backend, with a current focus on **
 
 I also write practical technical articles about web development, backend architecture, authentication, databases, and implementation mistakes found in real projects.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/engineering-snapshot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/engineering-snapshot-light.svg">
+  <img alt="Engineering snapshot: authentication case study verification and current focus" src="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/engineering-snapshot-light.svg">
+</picture>
+
 ## What I work with
 
 **Frontend**  
@@ -29,6 +35,12 @@ I rebuilt the flow with **Express, PostgreSQL, PBKDF2-HMAC-SHA256, random per-us
 The project includes database migrations, session-id regeneration after login, generic credential errors, protected routes, logout, and automated HTTP/password/configuration/persistence tests.
 
 **Verification:** 14 automated tests pass in GitHub Actions.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/auth-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/auth-flow-light.svg">
+  <img alt="Authentication case study flow: old PHP project, verification bug, Express redesign, 14 of 14 tests passing" src="https://raw.githubusercontent.com/user49324809/user49324809/main/assets/auth-flow-light.svg">
+</picture>
 
 [View the case-study Pull Request](https://github.com/user49324809/bicycle/pull/1)
 
