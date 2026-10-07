@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering snapshot</title>
+  <desc id="desc">Authentication case study verification and current engineering focus.</desc>
+  <rect x="1" y="1" width="758" height="238" rx="18" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="28" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18" font-weight="700" fill="#1f2328">Engineering snapshot</text>
+  <text x="28" y="60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#57606a">Current public proof points from the authentication case study</text>
+  <rect x="28" y="82" width="210" height="110" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="48" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700" fill="#1a7f37">14 / 14</text>
+  <text x="48" y="139" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#1f2328">automated tests passing</text>
+  <g transform="translate(48 157)">
+    <rect x="0" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="12" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="24" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="36" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="48" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="60" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="72" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="84" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="96" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="108" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="120" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="132" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="144" y="0" width="8" height="18" rx="3" fill="#1a7f37"/><rect x="156" y="0" width="8" height="18" rx="3" fill="#1a7f37"/>
+  </g>
+  <rect x="254" y="82" width="210" height="110" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="274" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#1f2328">Security-focused flow</text>
+  <text x="274" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#57606a">PBKDF2 · random salt</text>
+  <text x="274" y="157" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#57606a">parameterized SQL · sessions</text>
+  <text x="274" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#57606a">migrations · protected routes</text>
+  <rect x="480" y="82" width="252" height="110" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="500" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#1f2328">Current focus</text>
+  <rect x="500" y="126" width="96" height="26" rx="13" fill="#ddf4ff"/><text x="548" y="143" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#0969da">React · TS</text>
+  <rect x="604" y="126" width="108" height="26" rx="13" fill="#fbefff"/><text x="658" y="143" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8250df">Node · Express</text>
+  <rect x="500" y="160" width="96" height="26" rx="13" fill="#dafbe1"/><text x="548" y="177" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#1a7f37">PostgreSQL</text>
+  <rect x="604" y="160" width="108" height="26" rx="13" fill="#fff8c5"/><text x="658" y="177" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#9a6700">Tech writing</text>
+  <text x="28" y="218" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#6e7781">Real project bug → documented fix → reproducible implementation → automated verification</text>
+</svg>
