@@ -1,80 +1,108 @@
-# Наталья — Frontend / Full-stack Developer
+# Natalia — Full-stack Developer & Technical Writer
 
-Разрабатываю веб-приложения на React и TypeScript, создаю адаптивные интерфейсы и подключаю их к серверной части.
+I build web applications across frontend and backend, with a current focus on **React, TypeScript, Node.js, Express, PostgreSQL, PHP, and Laravel**.
 
-Основное направление — **React + TypeScript**. Также работаю с Vue, Node.js, PHP, Laravel и реляционными базами данных.
+I also write practical technical articles about web development, backend architecture, authentication, databases, and implementation mistakes found in real projects.
 
-## Обо мне
+## What I work with
 
-- Разбиваю интерфейсы на переиспользуемые компоненты
-- Работаю с REST API, формами, маршрутизацией и состоянием
-- Обрабатываю загрузку, ошибки и валидацию данных
-- Создаю backend API и проектирую структуру баз данных
-- Разворачиваю приложения и настраиваю окружение через Docker
-- Последовательно развиваюсь от Junior к самостоятельному Full-stack разработчику
-
-## Технологии
-
-**Frontend**
-
+**Frontend**  
 React · TypeScript · JavaScript · Vue 3 · HTML5 · CSS3 · SCSS · Material UI
 
-**Backend**
-
+**Backend**  
 Node.js · Express · PHP · Laravel · Yii2
 
-**Базы данных**
-
+**Databases**  
 PostgreSQL · MySQL · MongoDB · SQLite
 
-**Инструменты**
-
+**Tools**  
 Git · GitHub · Docker · Vite · npm · REST API · Postman · Figma
 
-## Избранные проекты
+## Featured projects
 
-### Expense Tracker
+### Bicycle Authentication Case Study
 
-Приложение для учёта расходов с фильтрацией по периодам, сохранением данных и визуальной аналитикой.
+A practical authentication case study based on a bug I found in an older PHP bicycle-store project: registration stored a password hash, while login compared that stored value with the plaintext password from the form.
 
-**Стек:** React, JavaScript, Chart.js, localStorage
+I rebuilt the flow with **Express, PostgreSQL, PBKDF2-HMAC-SHA256, random per-user salts, `timingSafeEqual`, parameterized SQL, and server-side sessions**.
 
-[Демонстрация](https://user49324809.github.io/tracker/) · [Исходный код](https://github.com/user49324809/tracker)
+The project includes database migrations, session-id regeneration after login, generic credential errors, protected routes, logout, and automated HTTP/password/configuration/persistence tests.
+
+**Verification:** 14 automated tests pass in GitHub Actions.
+
+[View the case-study Pull Request](https://github.com/user49324809/bicycle/pull/1)
 
 ### Yandex Reviews Integration
 
-Full-stack приложение с регистрацией, авторизацией, сохранением настроек компании и интерфейсом просмотра рейтинга и отзывов. Для демонстрации используется mock-провайдер данных.
+A full-stack application with registration, authentication, company settings, and an interface for viewing ratings and reviews. A mock provider is used for demonstration data.
 
-**Стек:** Laravel, Vue 3, Inertia, MySQL, Docker
+**Stack:** Laravel, Vue 3, Inertia, MySQL, Docker
 
-[Исходный код](https://github.com/user49324809/yandex_integrations)
+[Source code](https://github.com/user49324809/yandex_integrations)
 
 ### Short Links + QR
 
-Сервис создания коротких ссылок и QR-кодов. Сохраняет ссылки в базе данных, выполняет перенаправление и собирает статистику переходов.
+A URL-shortening and QR-code service that stores links in a database, redirects users, and collects click statistics.
 
-**Стек:** PHP, Yii2, MySQL, Docker
+**Stack:** PHP, Yii2, MySQL, Docker
 
-[Исходный код](https://github.com/user49324809/shortlink)
+[Source code](https://github.com/user49324809/shortlink)
+
+### Expense Tracker
+
+An expense-tracking application with date filtering, persistent local data, and visual analytics.
+
+**Stack:** React, JavaScript, Chart.js, localStorage
+
+[Live demo](https://user49324809.github.io/tracker/) · [Source code](https://github.com/user49324809/tracker)
 
 ### Frontend Portfolio
 
-Персональный сайт с информацией обо мне, используемых технологиях и проектах.
+A personal portfolio site with project highlights, technologies, and contact information.
 
-**Стек:** React, TypeScript, Vite, SCSS
+**Stack:** React, TypeScript, Vite, SCSS
 
-[Демонстрация](https://frontend-portfolio-virid-sigma.vercel.app/) · [Исходный код](https://github.com/user49324809/frontend-portfolio)
+[Live demo](https://frontend-portfolio-virid-sigma.vercel.app/) · [Source code](https://github.com/user49324809/frontend-portfolio)
 
-## Сейчас развиваю
+## Technical Writing & Engineering Notes
 
-- архитектуру React-приложений;
-- углублённую работу с TypeScript;
-- модульное и интеграционное тестирование;
-- доступность и адаптивность интерфейсов;
-- проектирование и документирование REST API.
+I write practical technical material based on implementation work rather than abstract summaries alone.
 
-## Контакты
+Current topics include:
 
-Открыта к предложениям по позициям **Frontend Developer** и **Full-stack Developer**.
+- authentication and password verification;
+- backend validation and database constraints;
+- SQL safety and parameterized queries;
+- sessions and application security;
+- frontend/backend contracts;
+- database design and scalability;
+- explaining programming concepts through concrete analogies and project examples.
 
-[Портфолио](https://frontend-portfolio-virid-sigma.vercel.app/) · [GitHub](https://github.com/user49324809)
+One current article grew directly from the authentication bug documented in the Bicycle Authentication Case Study above.
+
+## Engineering approach
+
+I try to make projects easy to inspect and reproduce:
+
+- clear separation of responsibilities;
+- input validation and predictable error handling;
+- database constraints where application-level checks are not enough;
+- automated tests for critical flows and regressions;
+- environment configuration outside source code;
+- readable documentation and reproducible setup steps;
+- GitHub Actions for automated verification where appropriate.
+
+## Currently developing
+
+- React application architecture;
+- deeper TypeScript usage;
+- backend architecture with Node.js and Java;
+- unit and integration testing;
+- REST API design and documentation;
+- production-oriented database and security practices.
+
+## Contact
+
+Open to **Frontend Developer**, **Full-stack Developer**, and technical writing opportunities.
+
+[Portfolio](https://frontend-portfolio-virid-sigma.vercel.app/) · [GitHub](https://github.com/user49324809)
