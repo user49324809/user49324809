@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">From authentication bug to tested fix</title>
+  <desc id="desc">A four-stage flow from an old PHP implementation to a verified Express redesign.</desc>
+  <rect x="1" y="1" width="758" height="218" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="36" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#f0f6fc">From bug → tested fix</text>
+  <text x="28" y="57" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#8b949e">The authentication article is backed by a reproducible implementation, not just prose.</text>
+  <rect x="28" y="86" width="150" height="86" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text x="103" y="111" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">1 · Old PHP project</text>
+  <text x="103" y="134" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#8b949e">password_hash()</text>
+  <text x="103" y="153" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#8b949e">hash stored in MySQL</text>
+  <path d="M186 129 H211" stroke="#6e7681" stroke-width="2"/><path d="M207 124 L213 129 L207 134" fill="none" stroke="#6e7681" stroke-width="2"/>
+  <rect x="220" y="86" width="150" height="86" rx="14" fill="#2d1214" stroke="#f85149"/>
+  <text x="295" y="111" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ff7b72">2 · Verification bug</text>
+  <text x="295" y="134" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#ff7b72">stored hash</text>
+  <text x="295" y="151" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#ff7b72">≠ plaintext password</text>
+  <path d="M378 129 H403" stroke="#6e7681" stroke-width="2"/><path d="M399 124 L405 129 L399 134" fill="none" stroke="#6e7681" stroke-width="2"/>
+  <rect x="412" y="86" width="150" height="86" rx="14" fill="#13233a" stroke="#388bfd"/>
+  <text x="487" y="111" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#58a6ff">3 · Express redesign</text>
+  <text x="487" y="134" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#58a6ff">PBKDF2 + salt</text>
+  <text x="487" y="151" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#58a6ff">SQL + sessions</text>
+  <path d="M570 129 H595" stroke="#6e7681" stroke-width="2"/><path d="M591 124 L597 129 L591 134" fill="none" stroke="#6e7681" stroke-width="2"/>
+  <rect x="604" y="86" width="128" height="86" rx="14" fill="#12261a" stroke="#2ea043"/>
+  <text x="668" y="111" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#3fb950">4 · Verified</text>
+  <text x="668" y="139" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#3fb950">14 / 14</text>
+  <text x="668" y="157" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#3fb950">tests passing</text>
+  <text x="28" y="199" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#8b949e">Historical mistake preserved as a case study; corrected flow implemented and tested separately.</text>
+</svg>
